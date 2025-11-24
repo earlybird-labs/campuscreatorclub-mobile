@@ -1,0 +1,70 @@
+{
+  "project_info": {
+    "project_number": "871302192650",
+    "project_id": "campus-creator-club",
+    "storage_bucket": "campus-creator-club.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871302192650:android:5f334e534368a9fad5c9f3",
+        "android_client_info": {
+          "package_name": "com.boulevard.campuscreatorclub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871302192650-cvk5peco5sssdas3jdqvnfel7f83e5c8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.boulevard.campuscreatorclub",
+            "certificate_hash": "3f4e4348b46a7802dfabdbddd9d606c06e3724cd"
+          }
+        },
+        {
+          "client_id": "871302192650-ehuoj7o7aafjlb7ucltorq4qu3eqbnrg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.boulevard.campuscreatorclub",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "871302192650-o6p1tsk902l0qjhm2soq38cd2ak6rm3k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.boulevard.campuscreatorclub",
+            "certificate_hash": "528e7d5519b8f2e451e4ad988acc11e1038fd305"
+          }
+        },
+        {
+          "client_id": "871302192650-ccomi06nhbb0gejcaisqsi780ev84jun.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDLjPIKBYiUVTKK0t9U0y4YqfwV49CRb8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "871302192650-ccomi06nhbb0gejcaisqsi780ev84jun.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "871302192650-grpbp0tqqvkg1077gdeb7n33gkvn8t3t.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.boulevardlegacy.campuscreatorclub"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

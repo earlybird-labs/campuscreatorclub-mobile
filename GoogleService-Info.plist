@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>871302192650-m0rku2j7cb51hg5spr269cbc4h3vddjo.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.871302192650-m0rku2j7cb51hg5spr269cbc4h3vddjo</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>871302192650-32bneqm0lhgu8vml17d3un69j868cp82.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDjdNJPdWCgcRwesabRT2EaLXJbsw9nQeo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>871302192650</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.boulevard.campuscreatorclub</string>
+	<key>PROJECT_ID</key>
+	<string>campus-creator-club</string>
+	<key>STORAGE_BUCKET</key>
+	<string>campus-creator-club.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:871302192650:ios:fe1dd04ff8f91f30d5c9f3</string>
+</dict>
+</plist>

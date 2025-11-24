@@ -1,0 +1,88 @@
+{
+  "expo": {
+    "name": "Campus Creator Club",
+    "slug": "CCC",
+    "version": "1.0.48",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "campus-creator-club",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.boulevard.campuscreatorclub",
+      "googleServicesFile": "./GoogleService-Info.plist"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.boulevard.campuscreatorclub",
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ],
+      [
+        "react-native-appsflyer",
+        {
+          "shouldUseStrictMode": false, // optional – kids-apps strict mode
+          "shouldUsePurchaseConnector": true // NEW – enables Purchase Connector
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/images/notification-icon.png",
+          "color": "#ffffff"
+        }
+      ],
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth",
+      "@react-native-firebase/crashlytics",
+      "@react-native-firebase/messaging",
+      "@react-native-google-signin/google-signin",
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you select and upload profile pictures that will be displayed on your user profile within the app. For example, when you tap 'Photo Library' on your profile page, you can choose an existing photo from your library to use as your profile picture that other users in your campus creator network will see.",
+          "cameraPermission": "The app uses your camera to take profile pictures that will be displayed on your user profile within the app. For example, when you tap the camera icon on your profile page, you can take a new photo to use as your profile picture that other users in your campus creator network will see."
+        }
+      ]
+    ],
+    "owner": "gm455",
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "b1c49196-43d0-4850-8a59-7513499d730c"
+      }
+    }
+  }
+}
