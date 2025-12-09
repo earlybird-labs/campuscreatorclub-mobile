@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Campus Creator Club",
-    "slug": "CCC",
+    "slug": "campuscreatorclub-mobile",
     "version": "1.0.48",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",

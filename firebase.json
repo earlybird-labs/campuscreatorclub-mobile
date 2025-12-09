@@ -2,7 +2,7 @@
   "functions": [
     {
       "source": "cloud-functions",
-      "codebase": "ccc",
+      "codebase": "campuscreatorclub-mobile",
       "ignore": [
         "node_modules",
         ".git",
